@@ -1,0 +1,20 @@
+
+
+
+.main {
+    margin-top: 100px;
+}
+
+.logo {
+    width: 300px;
+    display: block;
+    
+}
+
+.search {
+    width: 400px;
+    height: 30px;
+    display: block;
+    margin-top: 20px;
+    
+}
