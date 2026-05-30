@@ -1,5 +1,9 @@
 
 
+.flags {
+    display: flex;
+}
+
 .main {
     margin: 100px;
     border: solid;
@@ -27,4 +31,33 @@
     width: 400px;
     margin-top: 10px;
     background-color: black;
+}
+
+.gambia {
+    width: 400px;
+    margin: 100px;
+    border: solid;
+    width: 400px;
+}
+.red-g {
+    color: red;
+    height: 100px;
+    width: 400px;
+    background-color: red;
+
+}
+
+.blue-g {
+    background-color: blue;
+    height: 60px;
+    width: 400px;
+    margin-top: 30px;
+}
+
+.green-g {
+    color: green;
+    height: 100px;
+    width: 400px;
+    margin-top: 30px;
+    background-color: green;
 }
