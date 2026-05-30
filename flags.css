@@ -1,0 +1,30 @@
+
+
+.main {
+    margin: 100px;
+    border: solid;
+    width: 400px;
+}
+
+.red{
+    color: red;
+    height: 100px;
+    width: 400px;
+    background-color: red;
+}
+
+.green {
+    color: green;
+    height: 100px;
+    width: 400px;
+    margin-top: 10px;
+    background-color: green;
+}
+
+.black {
+    color: black;
+    height: 100px;
+    width: 400px;
+    margin-top: 10px;
+    background-color: black;
+}
