@@ -38,6 +38,8 @@
 .btn {
     
     border: none ;
+    margin-left: 4px;
+    margin-right: 4px;
     margin-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
@@ -48,4 +50,9 @@
     background-color: rgba(172, 169, 169, 0.918);
     font-size: 14px;
     
+}
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+
 }
