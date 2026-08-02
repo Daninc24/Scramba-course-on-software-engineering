@@ -3,10 +3,13 @@
 body{
     margin: 20px;
 }
-.main{
-    background-color: rgb(145, 219, 203);
-    
+.card {
+    border: 1px dotted blue;
+    padding: 20px;
+    display: flex;
 }
+
 .photo{
-    height: 400px;
+    /* height: 190px; */
+    width: 200px;
 }
