@@ -7,6 +7,9 @@ body{
     
     padding: 20px;
     display: flex;
+    justify-content: space-around;
+    width: 500PX;
+    margin: auto;
 }
 
 .dot-border {
