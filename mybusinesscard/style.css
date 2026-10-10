@@ -10,17 +10,13 @@ body{
     justify-content: space-around;
     width: 500PX;
     margin: auto;
-}
-
-.dot-border {
-    border: 1px dotted blue;
-
+    border-bottom: 10px solid rgba(228, 136, 228, 0.733);
+    background-color: rgb(110, 201, 204);
+    color: black;
+    text-align: center;
 }
 
 .photo{
-    /* height: 190px; */
+    height: 190px; 
     width: 200px;
 }
- .cen{
-    text-align: center;
-    }
