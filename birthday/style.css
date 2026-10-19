@@ -71,8 +71,36 @@ h1, h2, h3, h4, p {
     border-radius: 10px;
 }
 
-.gift-img:hover {
+#gift-img-happy:hover {
     background-image: url("images/happy.gif");
     background-size: cover;
+    
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/hot.gif");
+}
+
+#gift-img-genius:hover {
+    background-image: url("images/genius.gif");
+}
+
+#gift-img-badass:hover {
+    background-image: url("images/badass.gif");
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/cheers.gif");
+    
+}
+
+footer {
+    margin: 50px 0px 20px 0px;
+
+    font-size: 20px;
     
 }
