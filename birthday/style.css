@@ -99,8 +99,15 @@ h1, h2, h3, h4, p {
 }
 
 footer {
+    width: 400px;
     margin: 50px 0px 20px 0px;
-
+    text-shadow: 0px 0px 1px black;
+    font-style: italic;
     font-size: 20px;
+    font-weight: bold;
     
+}
+
+a {
+    color: #fff;
 }
