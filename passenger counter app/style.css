@@ -1,13 +1,22 @@
 
 
 body {
-    background-image: url("images/train.jpg");
-    background-color: antiquewhite;
+    background-image: linear-gradient(rgba(253, 251, 251, 0.5), rgba(192, 189, 189, 0.5)), url("images/train.jpg");
+    height: 400px;
     background-size: cover;
+    background-position: center;
 }
 
 .main-content {
     
-    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 200px auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    color: rgb(1, 0, 8);
+    text-shadow: 0px 0px 1px rgb(248, 245, 245);
     
 }
