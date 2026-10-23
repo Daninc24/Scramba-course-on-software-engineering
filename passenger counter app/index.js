@@ -11,26 +11,19 @@
 //increment the count variable when the button is clicked
 //change the count-el in the html to reflect the new count
 
+let countEl = document.getElementById("count-el") //passing an argument
+console.log(countEl)
+
+
+let count = 0
 
 function increment() {
-    console.log("button was clicked")
+    count = count + 1
+
+    countEl.innerText = count
+    console.log(count)
 }
 
-// count down 
-// functions are also known as commands
 
-function math() {
-    let num1 = 20
-
-    let num2 = 22
-
-    let sum = num1 + num2
-
-    console.log(sum)
-}
-
-math()
-
-//for a function to work it has to be invoked or called
 
 
