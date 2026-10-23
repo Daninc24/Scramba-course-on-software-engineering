@@ -1,15 +1,6 @@
 
-
-//document.getElementById("count-el").innerText=5
-
-// let count = 0
-
-// console.log(count)
-
-//initialize the count as 0
-//listen for clicks on the increment button
-//increment the count variable when the button is clicked
-//change the count-el in the html to reflect the new count
+//document object model its ususally how people use javascript to modify website
+//making increment button affect the count-el id
 
 let countEl = document.getElementById("count-el") //passing an argument
 console.log(countEl)
