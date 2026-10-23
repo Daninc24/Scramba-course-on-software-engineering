@@ -23,3 +23,20 @@ body {
     text-shadow: 0px 0px 2px rgb(241, 233, 233);
     
 }
+
+button {
+    padding: 10px 20px;
+    
+    color:antiquewhite;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 200px;
+
+}
+
+#increment-btn {
+    background: darkred;
+}
