@@ -21,10 +21,15 @@ function save() {
 
     let savEl = document.getElementById("save-el")
     let previousEntry = count + " - "
-    savEl.innerText += previousEntry
-    console.log(previousEntry)
+    savEl.textContent += previousEntry
+
+    //reset count to 0
+    count = 0
+    countEl.innerText = count
+    
 }
 
+//after safe return the count to zero 
 
 //working with strings on javascript learning about datatypes
 
