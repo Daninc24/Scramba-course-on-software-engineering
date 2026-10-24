@@ -26,13 +26,17 @@ function save() {
 
 let name = "Daniel"
 
-let greeting = "hello my name is "
+let welcomeEl = document.getElementById("welcome-el")
 
-let myGreetings = greeting + name 
+function welcome() {
+    let greeting = "Welcome back " + name
 
-console.log(myGreetings)
- //escape character on strings\
+    welcomeEl.innerText = greeting
 
- let wish = 'I\'d wish the show "The lion kign"'
- console.log(wish)
-//the escape character tells javascript that the next character should not be seen as string delimiter
+    console.log(greeting)  
+
+}
+
+welcome()
+
+
