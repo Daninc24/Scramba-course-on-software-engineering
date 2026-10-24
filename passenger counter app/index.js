@@ -8,7 +8,7 @@ let countEl = document.getElementById("count-el")
 let count = 0
 
 function increment() {
-    count = count + 1
+    count += 1
 
     countEl.innerText = count
 
@@ -18,7 +18,11 @@ function increment() {
 //creating a save() function
 
 function save() {
-    console.log(count)
+
+    let savEl = document.getElementById("save-el")
+    let previousEntry = count + " - "
+    savEl.innerText += previousEntry
+    console.log(previousEntry)
 }
 
 
