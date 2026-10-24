@@ -24,19 +24,6 @@ function save() {
 
 //working with strings on javascript learning about datatypes
 
-let name = "Daniel"
 
-let welcomeEl = document.getElementById("welcome-el")
-
-function welcome() {
-    let greeting = "Welcome back " + name
-
-    welcomeEl.innerText = greeting
-
-    console.log(greeting)  
-
-}
-
-welcome()
 
 
