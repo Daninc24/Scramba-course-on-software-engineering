@@ -22,5 +22,17 @@ function save() {
 }
 
 
+//working with strings on javascript learning about datatypes
 
+let name = "Daniel"
 
+let greeting = "hello my name is "
+
+let myGreetings = greeting + name 
+
+console.log(myGreetings)
+ //escape character on strings\
+
+ let wish = 'I\'d wish the show "The lion kign"'
+ console.log(wish)
+//the escape character tells javascript that the next character should not be seen as string delimiter
