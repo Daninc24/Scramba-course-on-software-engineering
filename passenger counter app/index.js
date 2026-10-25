@@ -33,13 +33,27 @@ function save() {
 
 //working with strings on javascript learning about datatypes
 
-let name = "Linda"
 
-let greeting = "hi there"
+let myPoints = 3
 
-function greetMe() {
-    greet = greeting + ", " + name + "!"
-    console.log(greet)
+function add3Points() {
+    myPoints += 3
+    console.log(myPoints)
 }
 
-greetMe()
+function remove1Point() {
+    myPoints -= 1
+    console.log(myPoints)
+}
+
+add3Points()
+add3Points()
+add3Points()
+add3Points()
+remove1Point()
+remove1Point()
+remove1Point()
+remove1Point()
+remove1Point()
+
+console.log(myPoints)
