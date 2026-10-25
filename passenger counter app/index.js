@@ -32,28 +32,3 @@ function save() {
 //after safe return the count to zero 
 
 //working with strings on javascript learning about datatypes
-
-
-let myPoints = 3
-
-function add3Points() {
-    myPoints += 3
-    console.log(myPoints)
-}
-
-function remove1Point() {
-    myPoints -= 1
-    console.log(myPoints)
-}
-
-add3Points()
-add3Points()
-add3Points()
-add3Points()
-remove1Point()
-remove1Point()
-remove1Point()
-remove1Point()
-remove1Point()
-
-console.log(myPoints)
