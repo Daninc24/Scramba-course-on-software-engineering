@@ -25,7 +25,7 @@ function save() {
 
     //reset count to 0
     count = 0
-    countEl.innerText = count
+    countEl.textContent = count
     
 }
 
@@ -33,6 +33,13 @@ function save() {
 
 //working with strings on javascript learning about datatypes
 
+let name = "Linda"
 
+let greeting = "hi there"
 
+function greetMe() {
+    greet = greeting + ", " + name + "!"
+    console.log(greet)
+}
 
+greetMe()
