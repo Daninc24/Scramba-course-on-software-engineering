@@ -2,6 +2,7 @@
 //creating error message
 let error = document.getElementById("error") 
 
-function errorCode() {
-    error.innerText = "something went wrong"
+function purchase() {
+    error.textContent = "something went wrong. please try again"
+    console.log(error)
 }
