@@ -1,0 +1,38 @@
+
+
+#main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#home-el {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    margin-bottom: 20px;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#guest-el {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    margin-bottom: 20px;
+    color: red;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
