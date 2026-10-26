@@ -1,0 +1,22 @@
+
+
+body {
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#num1-el {
+    border-bottom: 2px solid black;
+    
+}
+#num2-el {
+    border-bottom: 2px solid black
+}
+
+button {
+    margin: 20px;
+    padding: 10px 20px;
+}
