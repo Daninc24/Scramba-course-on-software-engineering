@@ -20,3 +20,7 @@ button {
     margin: 20px;
     padding: 10px 20px;
 }
+
+#sum-el {
+    border-bottom: 2px solid black;
+}
