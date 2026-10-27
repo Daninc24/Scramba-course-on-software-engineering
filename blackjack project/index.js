@@ -1,6 +1,6 @@
 
 
-let firstCard = 6
+let firstCard = 11
 let secondCard = 10
 
 let sum = firstCard + secondCard
