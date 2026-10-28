@@ -17,3 +17,7 @@ h1 {
 #message-el {
     font-style: italic;
 }
+
+#start-btn {
+    padding: 10px 20px;
+}

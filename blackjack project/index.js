@@ -11,25 +11,31 @@ let isLive = true
 
 let message = ""
 
-if (sum <= 20) {
-    message = "do you want to draw another card. you are not yet there"
-} 
-else if (sum === 21) {
-    message = "wololoooo! you got black jack"
-    hasBlackjack = true
-}
-else {
-    message = "you are out of game hehe"
-    isLive = false
-    console.log(isLive)
+function startGame() {
+
+    if (sum <= 20) {
+        message = "do you want to draw another card. you are not yet there"
+    } 
+    else if (sum === 21) {
+        message = "wololoooo! you got black jack"
+        hasBlackjack = true
+    }
+    else {
+        message = "you are out of game hehe"
+        isLive = false
+        console.log(isLive)
+    }
+    console.log(hasBlackjack)
+
+
+    console.log(message)
 }
 
 //check out money
 
-console.log(hasBlackjack)
 
 
-console.log(message)
+
 
 
 
