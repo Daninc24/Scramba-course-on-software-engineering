@@ -5,15 +5,28 @@ let secondCard = 10
 
 let sum = firstCard + secondCard
 
+let hasBlackjack = false
+
+let isLive = true
+
 if (sum <= 20) {
     console.log("do you want to draw another card")
 } 
 else if (sum === 21) {
     console.log("wololoooo! you got black jack")
+    hasBlackjack = true
 }
 else {
     console.log("you are out of game hehe")
+    isLive = false
 }
+
+//check out money
+
+console.log(hasBlackjack)
+console.log(isLive)
+
+
 
 
 
