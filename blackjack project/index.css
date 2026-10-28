@@ -2,4 +2,18 @@
 
 body {
     background-color: rgb(5, 116, 29);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: large;
+}
+h1 {
+    color: goldenrod;
+    font-size: 44px;
+}
+
+#message-el {
+    font-style: italic;
 }
