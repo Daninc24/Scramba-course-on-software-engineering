@@ -13,11 +13,28 @@
 //     console.log("you are out of game hehe")
 // }
 
-let age = 22
+// let age = 22
 
-if (age < 22) {
-    console.log("go home kid. you are not allowed here")
+// if (age < 22) {
+//     console.log("go home kid. you are not allowed here")
+// }
+// else {
+//     console.log("you are welcome what will you drink ")
+// }
+
+
+//in norway if a person is exactly 100 years old they get a birthday card from the king
+
+
+let age = 100
+
+if (age < 100) {
+    console.log("you are not eligible for the birthday card from the king")
 }
+else if(age === 100) {
+    console.log("congratulations here is your birthday card from the king")
+}
+
 else {
-    console.log("you are welcome what will you drink ")
+    console.log("you already received one. no more for you lols")
 }
