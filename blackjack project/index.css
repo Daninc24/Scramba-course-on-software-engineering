@@ -20,4 +20,9 @@ h1 {
 
 #start-btn {
     padding: 10px 20px;
+    color: green;
+    background-color: goldenrod;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
 }
