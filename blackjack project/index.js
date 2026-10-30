@@ -1,6 +1,6 @@
 
 
-let firstCard = 1
+let firstCard = 11
 let secondCard = 10
 
 let sum = firstCard + secondCard
@@ -11,10 +11,12 @@ let isLive = true
 
 let message = ""
 
+let messageEl = document.getElementById("message-el")
+
 function startGame() {
 
     if (sum <= 20) {
-        message = "do you want to draw another card. you are not yet there"
+        message = "Do you want to draw another card. you are not yet there"
     } 
     else if (sum === 21) {
         message = "wololoooo! you got black jack"
@@ -29,6 +31,7 @@ function startGame() {
 
 
     console.log(message)
+    messageEl.textContent = message
 }
 
 //check out money
