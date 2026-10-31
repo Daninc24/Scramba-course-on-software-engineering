@@ -15,13 +15,15 @@ let messageEl = document.getElementById("message-el")
 
 
 
-// let sumEl = document.getElementById("sum-el")
-//using queryselectors to select an element
-let sumEl = document.querySelector("#sum-el")
+let sumEl = document.getElementById("sum-el")
+// //using queryselectors to select an element
+// let sumEl = document.querySelector("#sum-el")
 
-
+let cardEl = document.getElementById("cards-el")
 
 function startGame() {
+
+    cardEl.textContent = "Cards: " + firstCard + " " + secondCard
 
     //getting the sum of the cards prinded on the screen
     sumEl.textContent = "Sum: " + sum
