@@ -29,8 +29,6 @@ function startGame() {
     }
     console.log(hasBlackjack)
 
-
-    console.log(message)
     messageEl.textContent = message
 }
 
