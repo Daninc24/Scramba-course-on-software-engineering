@@ -46,5 +46,11 @@ function startGame() {
     messageEl.textContent = message
 }
 
-//check out money
+// new card function
+
+
+function newCard() {
+    console.log("drawing a new card from the deck")
+
+}
 
