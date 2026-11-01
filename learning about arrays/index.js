@@ -7,4 +7,13 @@ let featuredPost = ["check out my ecommerce system",
     "here is my github link for my projects source code"
 ]
 
-let mySkills = ["Full stack developer", "Devop engineer", "javascript", "reactjs", "expressjs"]
+let mySkills = ["Full stack developer", //0
+    "Devop engineer", //1
+    "javascript", //2
+    "reactjs", //3
+    "expressjs"//4
+]
+
+console.log(mySkills[4])
+console.log(mySkills[2])
+console.log(mySkills[0])
