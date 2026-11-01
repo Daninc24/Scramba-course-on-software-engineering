@@ -50,6 +50,10 @@ function newCard() {
     
     sum += thirdCard
 
+    cards.push(thirdCard)
+
+    console.log(cards)
+
     renderGame()
 
 }
