@@ -36,4 +36,12 @@ let newMessage = "hope you will drop by for supper"
 // messages.push(newMessage)
 messages.pop()
 
-console.log(messages)
+// console.log(messages)
+
+
+// learning about loops 
+//counting using for loops
+
+for (let count = 10;count < 21; count += 1 ) {
+    console.log(count)
+}
