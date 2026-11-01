@@ -14,6 +14,10 @@ let mySkills = ["Full stack developer", //0
     "expressjs"//4
 ]
 
+for (let i =0; i < 5; i+=1){
+    console.log(mySkills[i])
+}
+
 // console.log(mySkills[4])
 // console.log(mySkills[2])
 // console.log(mySkills[0])
@@ -22,19 +26,19 @@ let mySkills = ["Full stack developer", //0
 
 //create array discribing yourself composed of the primitive data types we have learned
 
-let myData = ["Daniel", 27, true]
+// let myData = ["Daniel", 27, true]
 
 // console.log(myData.length)
 
-let messages = ["hello serenity",
-    "how are you doing today",
-    "how is the halloween taking you"
-]
+// let messages = ["hello serenity",
+//     "how are you doing today",
+//     "how is the halloween taking you"
+// ]
 
-let newMessage = "hope you will drop by for supper"
+// let newMessage = "hope you will drop by for supper"
 
 // messages.push(newMessage)
-messages.pop()
+// messages.pop()
 
 // console.log(messages)
 
@@ -42,6 +46,12 @@ messages.pop()
 // learning about loops 
 //counting using for loops
 
-for (let count = 10;count < 21; count += 1 ) {
-    console.log(count)
-}
+// for (let count = 10;count < 21; count += 1 ) {
+//     console.log(count)
+// }
+
+// //create a for loop that counts from 10 to 100 in steps of 10
+
+// for (let count = 10; count <= 100; count += 10){
+//     console.log(count)
+// }
