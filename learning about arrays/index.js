@@ -14,6 +14,14 @@ let mySkills = ["Full stack developer", //0
     "expressjs"//4
 ]
 
-console.log(mySkills[4])
-console.log(mySkills[2])
-console.log(mySkills[0])
+// console.log(mySkills[4])
+// console.log(mySkills[2])
+// console.log(mySkills[0])
+
+// arrays are called composite data types or complex data type
+
+//create array discribing yourself composed of the primitive data types we have learned
+
+let myData = ["Daniel", 27, true]
+
+console.log(myData.length)
