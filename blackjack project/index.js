@@ -2,28 +2,24 @@
 
 let firstCard = 11
 let secondCard = 6
-
+let cards = [firstCard, secondCard]
 let sum = firstCard + secondCard
-
 let hasBlackjack = false
-
 let isLive = true
-
 let message = ""
-
 let messageEl = document.getElementById("message-el")
-
-
-
 let sumEl = document.getElementById("sum-el")
 // //using queryselectors to select an element
 // let sumEl = document.querySelector("#sum-el")
-
 let cardEl = document.getElementById("cards-el")
+//start game function
+function startGame() {
+    renderGame()
+}
 
 function renderGame() {
 
-    cardEl.textContent = "Cards: " + firstCard + " " + secondCard
+    cardEl.textContent = "Cards: " + cards[0] + " " + cards[1]
 
     //getting the sum of the cards prinded on the screen
     sumEl.textContent = "Sum: " + sum
@@ -46,10 +42,7 @@ function renderGame() {
     messageEl.textContent = message
 }
 
-//start game function
-function startGame() {
-    renderGame()
-}
+
 
 // new card function
 function newCard() {
