@@ -14,7 +14,7 @@ let mySkills = ["Full stack developer", //0
     "expressjs"//4
 ]
 
-for (let i =0; i < 5; i+=1){
+for (let i =0; i < mySkills.length; i+=1){
     console.log(mySkills[i])
 }
 
