@@ -24,4 +24,16 @@ let mySkills = ["Full stack developer", //0
 
 let myData = ["Daniel", 27, true]
 
-console.log(myData.length)
+// console.log(myData.length)
+
+let messages = ["hello serenity",
+    "how are you doing today",
+    "how is the halloween taking you"
+]
+
+let newMessage = "hope you will drop by for supper"
+
+// messages.push(newMessage)
+messages.pop()
+
+console.log(messages)
