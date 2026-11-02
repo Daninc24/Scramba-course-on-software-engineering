@@ -15,7 +15,14 @@ let mySkills = ["Full stack developer", //0
 ]
 
 for (let i =0; i < mySkills.length; i+=1){
-    console.log(mySkills[i])
+    // console.log(mySkills[i])
+}
+
+
+let cards = [7, 3, 9]
+
+for (let i=0; i < cards.length; i+=1){
+    console.log(cards[i])
 }
 
 // console.log(mySkills[4])
