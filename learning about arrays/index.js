@@ -1,30 +1,5 @@
 
 
-// arrays are ordered list items
-
-let featuredPost = ["check out my ecommerce system", 
-    "here is code of my portfolio", 
-    "here is my github link for my projects source code"
-]
-
-let mySkills = ["Full stack developer", //0
-    "Devop engineer", //1
-    "javascript", //2
-    "reactjs", //3
-    "expressjs"//4
-]
-
-for (let i =0; i < mySkills.length; i+=1){
-    // console.log(mySkills[i])
-}
-
-
-let cards = [7, 3, 9]
-
-for (let i=0; i < cards.length; i+=1){
-    console.log(cards[i])
-}
-
 // console.log(mySkills[4])
 // console.log(mySkills[2])
 // console.log(mySkills[0])
@@ -62,3 +37,12 @@ for (let i=0; i < cards.length; i+=1){
 // for (let count = 10; count <= 100; count += 10){
 //     console.log(count)
 // }
+
+let sentences = ["hello serenity", "hello shania", "hello grace", "hello mariam"]
+
+let greetingEl = document.getElementById("greeting-el")
+
+for ( let i = 0; i < sentences.length; i++) {
+    greetingEl.textContent += sentences[i] + " "
+    console.log(sentences[i])
+}
