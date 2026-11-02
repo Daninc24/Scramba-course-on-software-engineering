@@ -19,7 +19,11 @@ function startGame() {
 
 function renderGame() {
 
-    cardEl.textContent = "Cards: " + cards[0] + " " + cards[1]
+    cardEl.textContent = "Cards: "
+    for (let i = 0; i < cards.length; i++) {
+        cardEl.textContent +=  + cards[i] + " "
+    }
+    
 
     //getting the sum of the cards prinded on the screen
     sumEl.textContent = "Sum: " + sum
@@ -51,6 +55,8 @@ function newCard() {
     sum += thirdCard
 
     cards.push(thirdCard)
+
+    
 
     console.log(cards)
 
