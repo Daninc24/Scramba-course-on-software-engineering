@@ -18,7 +18,8 @@ function getRandomCard() {
     return 5
 }
 
-
+let numberFloored = Math.floor(4.95039) 
+console.log(numberFloored)
 
 
 function startGame() {
