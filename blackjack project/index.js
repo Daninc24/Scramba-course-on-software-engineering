@@ -15,7 +15,7 @@ let cardEl = document.getElementById("cards-el")
 //start game function
 
 function getRandomCard() {
-    
+    return 5
 }
 
 
