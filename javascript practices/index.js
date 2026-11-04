@@ -4,7 +4,7 @@ let error = document.getElementById("error")
 
 function purchase() {
     error.textContent = "something went wrong. please try again"
-    console.log(error)
+    // console.log(error)
 }
 
 //returning random numbers on function
@@ -22,4 +22,21 @@ function totalRaceTime() {
 }
 
 let totalTime = totalRaceTime()
-console.log(totalTime)
+// console.log(totalTime)
+
+
+// learning about logical operators
+
+let hasSolvedChallenge = false
+let hasHintsLeft = false
+
+if (hasSolvedChallenge === false && hasHintsLeft === false){
+    solvesSolution()
+}
+
+//write a if statement that checks if both variables are false
+//if so run the solveSolution() function
+
+function solvesSolution(){
+    console.log("showing the solution")
+}
