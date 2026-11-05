@@ -81,7 +81,12 @@ function newCard() {
 
     console.log(cards)
 
-    renderGame()
+    if (isLive === true && hasBlackjack === false) {
+
+        renderGame()
+
+    }
+
 
 }
 
