@@ -88,20 +88,26 @@ function logData() {
 }
 logData()
 
-let age = 55 
+let age = 18
 
 if (age < 6) {
     console.log("free")
 }
-else if (age > 6 && age < 18) {
+else if (age < 18) {
     console.log("child discount")
 }
-else if(age >= 18 && age < 27) {
+else if( age < 27) {
     console.log("student discount")
 }
-else if (age >=27 && age <= 66){
+else if (age <= 66){
     console.log("full price")
 }
 else {
     console.log("senior citizen discount")
+}
+
+let largeCountries = ["China", "India", "USA", "Indonesia", "Pakistan"]
+
+for ( let i = 0; i < largeCountries.length; i++) {
+    console.log("- " + largeCountries[i])
 }
