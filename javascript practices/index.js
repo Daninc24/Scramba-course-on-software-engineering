@@ -143,11 +143,14 @@
 // rockPaperScissor()
 // console.log(rockPaperScissor())
 
-let player1El = document.getElementById("player1-el")
-let player2El = document.getElementById("player2-el")
+let fighters = ["🥷", "🥋", "🧑‍🚀", "🦸", "🦹", "🧟", "🧛", "🐉", "🤖" , "👹"]
 
+let stageEl = document.getElementById("stage")
+let fighterButton = document.getElementById("fighter-btn")
 
-function fight() {
-    player1El.textContent = "F1 " + " VS  "
-    player2El.textContent = " " + " F2 " 
-}
+fighterButton.addEventListener("click", function() {
+    let randomIndexes = Math.floor(Math.random() * fighters.length)
+    let randomIndexes2 = Math.floor(Math.random() * fighters.length)
+
+    stageEl.textContent = fighters[randomIndexes] + " VS " + fighters[randomIndexes2]
+})
