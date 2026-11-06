@@ -111,3 +111,12 @@ let largeCountries = ["China", "India", "USA", "Indonesia", "Pakistan"]
 for ( let i = 0; i < largeCountries.length; i++) {
     console.log("- " + largeCountries[i])
 }
+
+let largeCountries2 = ["Tuvalu", "India", "USA", "Indonesia", "Monaco"]
+
+largeCountries2.pop()
+largeCountries2.shift()
+largeCountries2.push("Pakistan")
+largeCountries2.unshift("China")
+
+console.log(largeCountries2)
