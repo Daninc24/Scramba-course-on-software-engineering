@@ -143,14 +143,37 @@
 // rockPaperScissor()
 // console.log(rockPaperScissor())
 
-let fighters = ["🥷", "🥋", "🧑‍🚀", "🦸", "🦹", "🧟", "🧛", "🐉", "🤖" , "👹"]
+// let fighters = ["🥷", "🥋", "🧑‍🚀", "🦸", "🦹", "🧟", "🧛", "🐉", "🤖" , "👹"]
 
-let stageEl = document.getElementById("stage")
-let fighterButton = document.getElementById("fighter-btn")
+// let stageEl = document.getElementById("stage")
+// let fighterButton = document.getElementById("fighter-btn")
 
-fighterButton.addEventListener("click", function() {
-    let randomIndexes = Math.floor(Math.random() * fighters.length)
-    let randomIndexes2 = Math.floor(Math.random() * fighters.length)
+// fighterButton.addEventListener("click", function() {
+//     let randomIndexes = Math.floor(Math.random() * fighters.length)
+//     let randomIndexes2 = Math.floor(Math.random() * fighters.length)
 
-    stageEl.textContent = fighters[randomIndexes] + " VS " + fighters[randomIndexes2]
-})
+//     stageEl.textContent = fighters[randomIndexes] + " VS " + fighters[randomIndexes2]
+// })
+
+let fruits = ["orange", "apple", "apple", "orange", "orange"]
+
+
+let appleShelf = document.getElementById("apple-shelf")
+let orangeShelf = document.getElementById("orange-el")
+
+function putInToShelf() {
+    
+    for (let i = 0; i < fruits.length; i++) {
+        if (fruits[i] === "orange") {
+            orangeShelf.textContent += fruits[i] + " 🍊 "
+        }
+        else if(fruits[i] === "apple") {
+            appleShelf.textContent += fruits[i] + " 🍎"
+            
+        }
+    }
+    console.log(appleShelf)
+
+}
+
+putInToShelf()
