@@ -129,16 +129,25 @@
 // }
 
 
-let hand = ["rock", "paper", "scissor"]
+// let hand = ["rock", "paper", "scissor"]
 
 
 
-function rockPaperScissor() {
-   let randomIndex = Math.floor(Math.random() * hand.length)
+// function rockPaperScissor() {
+//    let randomIndex = Math.floor(Math.random() * hand.length)
 
-   return hand[randomIndex]
+//    return hand[randomIndex]
     
     
+// }
+// rockPaperScissor()
+// console.log(rockPaperScissor())
+
+let player1El = document.getElementById("player1-el")
+let player2El = document.getElementById("player2-el")
+
+
+function fight() {
+    player1El.textContent = "F1 " + " VS  "
+    player2El.textContent = " " + " F2 " 
 }
-rockPaperScissor()
-console.log(rockPaperScissor())
