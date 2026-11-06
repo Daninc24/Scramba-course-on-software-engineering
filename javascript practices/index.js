@@ -77,53 +77,68 @@
 // }
 
 
-let person = {
-    name: "Daniel",
-    age: 27,
-    country: "kenya"
+// let person = {
+//     name: "Daniel",
+//     age: 27,
+//     country: "kenya"
+// }
+
+// function logData() {
+//     console.log(person.name + " is " + person.age + " years old and lives in " + person.country)
+// }
+// logData()
+
+// let age = 18
+
+// if (age < 6) {
+//     console.log("free")
+// }
+// else if (age < 18) {
+//     console.log("child discount")
+// }
+// else if( age < 27) {
+//     console.log("student discount")
+// }
+// else if (age <= 66){
+//     console.log("full price")
+// }
+// else {
+//     console.log("senior citizen discount")
+// }
+
+// let largeCountries = ["China", "India", "USA", "Indonesia", "Pakistan"]
+
+// for ( let i = 0; i < largeCountries.length; i++) {
+//     console.log("- " + largeCountries[i])
+// }
+
+// let largeCountries2 = ["Tuvalu", "India", "USA", "Indonesia", "Monaco"]
+
+// largeCountries2.pop()
+// largeCountries2.shift()
+// largeCountries2.push("Pakistan")
+// largeCountries2.unshift("China")
+
+// console.log(largeCountries2)
+
+// let dayOfMonth = 13
+// let weekday = "Friday"
+
+// if (dayOfMonth === 13 && weekday === "Friday") {
+//     console.log("its time of party after  party lol")
+// }
+
+
+let hand = ["rock", "paper", "scissor"]
+
+
+
+function rockPaperScissor() {
+   let randomIndex = Math.floor(Math.random() * hand.length)
+
+   return hand[randomIndex]
+    
+    
 }
-
-function logData() {
-    console.log(person.name + " is " + person.age + " years old and lives in " + person.country)
-}
-logData()
-
-let age = 18
-
-if (age < 6) {
-    console.log("free")
-}
-else if (age < 18) {
-    console.log("child discount")
-}
-else if( age < 27) {
-    console.log("student discount")
-}
-else if (age <= 66){
-    console.log("full price")
-}
-else {
-    console.log("senior citizen discount")
-}
-
-let largeCountries = ["China", "India", "USA", "Indonesia", "Pakistan"]
-
-for ( let i = 0; i < largeCountries.length; i++) {
-    console.log("- " + largeCountries[i])
-}
-
-let largeCountries2 = ["Tuvalu", "India", "USA", "Indonesia", "Monaco"]
-
-largeCountries2.pop()
-largeCountries2.shift()
-largeCountries2.push("Pakistan")
-largeCountries2.unshift("China")
-
-console.log(largeCountries2)
-
-let dayOfMonth = 13
-let weekday = "Friday"
-
-if (dayOfMonth === 13 && weekday === "Friday") {
-    console.log("its time of party after  party lol")
-}
+rockPaperScissor()
+console.log(rockPaperScissor())
