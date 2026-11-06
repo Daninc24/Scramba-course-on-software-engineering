@@ -120,3 +120,10 @@ largeCountries2.push("Pakistan")
 largeCountries2.unshift("China")
 
 console.log(largeCountries2)
+
+let dayOfMonth = 13
+let weekday = "Friday"
+
+if (dayOfMonth === 13 && weekday === "Friday") {
+    console.log("its time of party after  party lol")
+}
