@@ -54,3 +54,20 @@ if (likesDocumentaries === true || likesStartups === true) {
 function recommendMovie() {
     console.log("Hey, check out this new film we think you will like!")
 }
+
+
+// learning about objects in javascript 
+
+let castle = {
+    location: "Limuru",
+    cost: 2000,
+    food: ["pilau", "mukimo", "nyamachoma"],
+    swimmingPool: true,
+    otherCastles: function() {
+        return "There are other castles in the area"
+        
+    }
+}
+
+console.log(castle.location)
+console.log(castle.swimmingPool)
