@@ -1,0 +1,24 @@
+
+body {
+text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    margin-top: 50px;
+}
+
+#box {
+    height: 100px;
+    width: 150px;
+    background-color: rgb(60, 174, 240);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
