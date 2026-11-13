@@ -8,7 +8,7 @@ const ulEl = document.getElementById("ul-el")
 
 inputBtn.addEventListener( "click", function() {
     myLeads.push(inputEl.value)
-    renderLead()
+    renderLeads()
     inputEl.value = ""
     
     
@@ -16,17 +16,17 @@ inputBtn.addEventListener( "click", function() {
 })
 
 
-function renderLead() {
+// function renderLead() {
 
-    let listItem = "<li>" + inputEl.value + "</li>"
-    ulEl.innerHTML += listItem
-}
-
-// function renderLeads() {
-//     let listItems = ""
-//     for (let i = 0; i < myLeads.length) {
-//         listItems += "<li>" + myLeads[i] + "</li>"
-
-//     }
-//     ulEl.innerHTML = listItems
+//     let listItem = "<li>" + inputEl.value + "</li>"
+//     ulEl.innerHTML += listItem
 // }
+
+function renderLeads() {
+    let listItems = ""
+    for (let i = 0; i < myLeads.length; i++) {
+        listItems += "<li> <a href='www.tiktok.com' target='_blank'>" + myLeads[i] + "</a> </li>"
+
+    }
+    ulEl.innerHTML = listItems
+}
